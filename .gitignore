@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pygame / temporary assets
+*.tmp
+*.log
+
+# Bytecode / build folders
+build/
+dist/
+
+# Lock files (если используешь poetry или pipenv)
+poetry.lock
+Pipfile.lock
+
+# PyInstaller / executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# GitHub / Misc
+*.bak
+*.swp
